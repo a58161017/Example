@@ -18,11 +18,9 @@ import org.hibernate.criterion.Restrictions;
 import kiuno.example.logger.*;
 
 public class HibernateDemo {
-	private static MyLogger mylogger = null;
 	private static Logger log = null;
 	public static void main(String[] args) {
-		mylogger = new MyLogger(HibernateDemo.class);
-		log = mylogger.getLogger();
+		log = (new MyLogger(HibernateDemo.class)).getLogger();
 		
 		// 開啟Session，相當於開啟JDBC的Connection
 		Session session = HibernateUtil.getSessionFactory().openSession();
