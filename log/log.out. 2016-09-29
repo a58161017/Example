@@ -1,0 +1,170 @@
+2016-09-29 15:40:13,416 [DEBUG] (PrintUriContent.java:printRequestHeaders:45) - {Keep-Alive=[timeout=15], Accept-Ranges=[bytes], null=[HTTP/1.1 200 OK], Server=[Apache], Connection=[Keep-Alive], Vary=[Accept-Encoding,User-Agent], Last-Modified=[Tue, 12 Nov 2013 01:02:45 GMT], Content-Length=[6668], Date=[Thu, 29 Sep 2016 07:40:06 GMT], Content-Type=[text/html]}
+2016-09-29 15:40:13,439 [DEBUG] (PrintUriContent.java:main:52) - <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=big5" /><title>:::::: 歡迎使用雲林科技大學 Web Mail 系統 :::::::::::</title>
+
+<link href="style_n.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+<!--
+function NewWindow(url)
+{
+  var hWnd = window.open(url, "HelpWindow", "width=600,height=400,resizable=yes,scrollbars=yes");
+}
+function fl()
+{
+     var key=document.cookie;
+     var form=document.lf;
+     if ( key.match(/uid=([^;]+)[;]*/) ){
+         form.USERID.value = RegExp.$1;
+         // form.remember[1].checked = true;
+         form.remember.checked = true;
+     }
+}
+function do_submit()
+{
+       var form = document.lf;
+
+       if (form.ssllogin.checked){
+          form.action = "https://webmail.yuntech.edu.tw/cgi-bin/login";
+       }else{
+       	  form.action = "http://webmail.yuntech.edu.tw/cgi-bin/login";
+       }
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script></head><body onload="fl();document.lf.USERID.focus()">
+<form name="lf" action="/cgi-bin/login" method="post" onsubmit="do_submit()">
+<!-- Save for Web Slices (A-01.psd) -->
+  <br />
+	<br />
+	<br />
+	<br />
+      <table style="text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+	<tr>
+        <td colspan="2"><img src="images/A-01_01.jpg" alt="" height="40" width="600" /></td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><img src="images/A-01_02.jpg" alt="" height="284" width="292" /></td>
+        <td align="center" width="308">
+        <table border="0" cellpadding="0" cellspacing="0" width="95%">
+          <tbody>
+            <tr>
+              <td>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td class="login_title" height="35" width="80">帳　　號<br />Login Name</td>
+                    <td align="left" width="80"><input name="USERID" class="word" size="14" /></td>
+                  </tr>
+                  <tr>
+                    <td class="login_title" height="35">密　　碼<br />Password</td>
+                    <td align="left"><input name="PASSWD" class="word" size="15" type="password" /></td>
+                  </tr>
+                  <tr>
+                        
+                    <td class="login_title" height="35">語&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系<br />Language</td>
+                    <td hlign="left" height="35">
+                    
+                    <select class="NormalText" size="1" name="lang" style="width: 156px;" tabindex="3">
+
+   <option value="">個人設定&nbsp;(Personal Config)</option>                 
+<option value="tw">中文&nbsp;(Chinese Traditional)</option>
+                    <option value="en">English</option>
+                    
+                    </select>
+
+                    </td>
+                    <td height="35"><br />
+</td>
+                    
+                </tr> 
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td rowspan="2" align="center" width="35%"> <input name="Submit" class="button" value="登　　入" src="images/login.jpg" alt="登入" type="image" /></td>
+                    <td align="left"><input value="checkbox" name="remember" type="checkbox" />記住帳號</td>
+                    <td align="left"><input name="ssllogin" value="checkbox" type="checkbox" />SSL加密登入</td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" background="images/bg.jpg"><img src="images/bg.jpg" height="25" width="2" /></td>
+            </tr>
+            <tr>
+              <td>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td width="41"><img src="images/icon1.jpg" height="38" width="41" /></td>
+                          <td align="left"><a href="/cgi-bin/newpass" target="_blank">學生新生設定密碼</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </td>
+                    <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td width="41"><img src="images/icon2.jpg" height="38" width="41" /></td>
+                          <td align="left"><a href="/cgi-bin/newpass?action=forget" target="_blank">忘記密碼</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                  </tbody>
+                        <tbody><tr>
+                          <td align="center"><a href="sp.html" target="_blank">行動裝置WEB收發Mail</a></td>
+                        </tr>
+                     		  
+                    </tbody><tbody><tr><td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td width="41"><img src="images/icon3.jpg" height="38" width="41" /></td>
+                          <td align="left"><a href="webmailq.html" target="_blank">常見詢答</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <!--td align="left" height="50">建議採用瀏覽器為FireFox、IE9、Chrome</td-->
+            </tr>
+          </tbody>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><img src="images/A-01_04.jpg" alt="" height="26" width="600" /></td>
+      </tr>
+    </tbody>
+  </table>
+<!-- End Save for Web Slices -->
+</form>
+</body></html>
+

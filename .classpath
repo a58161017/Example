@@ -1,22 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/log4j-1.2.17/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/dom4j.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/org-apache-commons-logging.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/commons-collections-3.2.1-1.0.0.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/hibernate-sqlite/hibernate-entitymanager.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/hibernate-sqlite/hibernatesqlite-1.0.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/hibernate-sqlite/sqlite-jdbc-3.7.2.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/hibernate3.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/cglib-2.2.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/asm-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/javax.transaction.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/annotation/ejb3-persistence.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/annotation/hibernate-annotations.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/annotation/hibernate-commons-annotations.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/annotation/slf4j.api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-mars-R-win32-x86_64/eclipse/jar/hibernate/antlr.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/log4j/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/antlr.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/dom4j.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/javax.transaction.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/hibernate-sqlite/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/hibernate-sqlite/hibernatesqlite-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/hibernate-sqlite/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/annotation/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/annotation/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/annotation/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/annotation/slf4j.api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-barcodes-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-barcodes-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-barcodes-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-font-asian-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-font-asian-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-forms-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-forms-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-forms-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-hyph-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-hyph-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-io-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-io-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-io-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-kernel-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-kernel-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-kernel-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-layout-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-layout-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-layout-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdfa-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdfa-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdfa-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdftest-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdftest-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-pdftest-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-sign-7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-sign-7.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/iText7/itext7-sign-7.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workproject_線上起訴/Example/lib/hibernate/hibernate-ejb3-persistence.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
