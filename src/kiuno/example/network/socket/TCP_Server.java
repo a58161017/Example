@@ -8,8 +8,14 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import org.apache.log4j.Logger;
+
+import kiuno.example.logger.MyLogger;
+
 public class TCP_Server {
+	private static Logger log = null;
 	public static void main(String[] args) throws Exception {
+		log = (new MyLogger(TCP_Server.class)).getLogger();
 		String IPAddress = "your_ip"; //換成自己的IP位置(可以設定127.0.0.1 or localhost)
 		int port = 12900; //可自行更改沒有在使用的port
 		int backlog = 100; //在佇列端請求連線的最大長度
@@ -23,16 +29,16 @@ public class TCP_Server {
 		*/
 		
 		ServerSocket serverSocket = new ServerSocket(port, backlog, InetAddress.getByName(IPAddress));
-		System.out.println("伺服器啟動(TCP協定)");
-		System.out.println("伺服器連線資訊:" + serverSocket);
+		log.debug("伺服器啟動(TCP協定)");
+		log.debug("伺服器連線資訊:" + serverSocket);
 
 		while (true) {
-			System.out.println("等待客戶端連線...");
+			log.debug("等待客戶端連線...");
 
 			final Socket activeSocket = serverSocket.accept();
 			
-			System.out.println("收到一個客戶端連線");
-			System.out.println("客戶端連線資訊:" + activeSocket);
+			log.debug("收到一個客戶端連線");
+			log.debug("客戶端連線資訊:" + activeSocket);
 			
 			// 處理客戶端連線 method1 java8的新寫法
 			Runnable runnable = () -> handleClientRequest(activeSocket);
@@ -55,7 +61,7 @@ public class TCP_Server {
 			InetAddress ia = socket.getInetAddress();
 			String inMsg = null;
 			while ((inMsg = socketReader.readLine()) != null) {
-				System.out.println("收到客戶端("+ia.getHostAddress()+")的訊息:"+inMsg);
+				log.debug("收到客戶端("+ia.getHostAddress()+")的訊息:"+inMsg);
 
 				String outMsg = "伺服器已經收到你傳遞的訊息:「"+inMsg+"」";
 				socketWriter.write(outMsg);

@@ -11,7 +11,7 @@ import kiuno.example.logger.MyLogger;
 public class UDP_MulticastServer {
 	private static Logger log = null;
 	public static void main(String[] args) throws Exception {
-		log = (new MyLogger(UDP_Server.class)).getLogger();
+		log = (new MyLogger(UDP_MulticastServer.class)).getLogger();
 		int mcPort = 12345; //可自行更port
 		String mcIPStr = "230.1.1.1"; // IP:224.0.0.0 to 239.255.255.255 可用於群播
 		InetAddress mcIPAddress = InetAddress.getByName(mcIPStr);
