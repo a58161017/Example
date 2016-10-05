@@ -1,1 +1,16 @@
-2016-10-04 17:32:02,766 [DEBUG] (PdfMaker.java:main:52) - finish to make pdf file
+2016-10-05 14:17:45,498 [DEBUG] (UDP_Server.java:main:20) - 伺服器啟動(UDP協定)
+2016-10-05 14:17:45,504 [DEBUG] (UDP_Server.java:main:21) - 伺服器連線資訊:/127.0.0.1:12345
+2016-10-05 14:17:45,504 [DEBUG] (UDP_Server.java:main:23) - 等待客戶端的一個UDP封包...
+2016-10-05 14:17:54,503 [DEBUG] (UDP_Client.java:main:24) - 請輸入一段訊息(Bye to quit):
+2016-10-05 14:18:14,631 [DEBUG] (UDP_Server.java:displayPacketDetails:40) - 收到一個封包
+2016-10-05 14:18:14,631 [DEBUG] (UDP_Server.java:displayPacketDetails:41) - 封包資訊:[IP Address=/127.0.0.1, port=62655, message=測試測試123]
+2016-10-05 14:18:14,632 [DEBUG] (UDP_Server.java:main:23) - 等待客戶端的一個UDP封包...
+2016-10-05 14:18:14,633 [DEBUG] (UDP_Client.java:displayPacketDetails:47) - 收到一個封包
+2016-10-05 14:18:14,633 [DEBUG] (UDP_Client.java:displayPacketDetails:48) - 封包資訊:[IP  Address=/127.0.0.1, port=12345, message=伺服器已經收到你傳遞的訊息:「測試測試123」]
+2016-10-05 14:18:14,634 [DEBUG] (UDP_Client.java:main:34) - 請輸入一段訊息(Bye to quit):
+2016-10-05 14:39:17,164 [DEBUG] (UDP_MulticastServer.java:main:20) - 群播接收者執行在:0.0.0.0/0.0.0.0:12345
+2016-10-05 14:39:17,169 [DEBUG] (UDP_MulticastServer.java:main:24) - 等待一個群播訊息...
+2016-10-05 14:39:21,413 [DEBUG] (UDP_MulticastServer.java:main:28) - [群播接收者] 收到訊息:大家好~~
+2016-10-05 14:39:21,413 [DEBUG] (UDP_MulticastServer.java:main:29) - 離開程式
+2016-10-05 14:39:21,413 [DEBUG] (UDP_MulticastClient.java:main:28) - 送出一個訊息在群播上:大家好~~
+2016-10-05 14:39:21,417 [DEBUG] (UDP_MulticastClient.java:main:29) - 離開程式
